@@ -2,7 +2,7 @@
 language: go
 default_versions:
 - name: go
-  version: 1.6.3
+  version: 1.7.1
 url_to_dependency_map:
 - match: go(\d+\.\d+(.*))
   name: go
@@ -15,51 +15,21 @@ url_to_dependency_map:
   version: v0.12.3
 dependencies:
 - name: go
-  version: 1.5.3
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/go/go1.5.3.linux-amd64.tar.gz
-  md5: 04b6198025b9a09889714d664bb94435
-  cf_stacks:
-  - cflinuxfs2
-- name: go
-  version: 1.5.4
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/go/go1.5.4.linux-amd64.tar.gz
-  md5: 27e19442233106d4deb329edc0980a46
-  cf_stacks:
-  - cflinuxfs2
-- name: go
-  version: 1.6.3
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/go/go1.6.3.linux-amd64.tar.gz
-  md5: 5f7bf9d61d2b0dd75c9e2cd7a87272cc
-  cf_stacks:
-  - cflinuxfs2
-- name: go
-  version: 1.6.2
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/go/go1.6.2.linux-amd64.tar.gz
-  md5: 6f1fd6eaf7d14b532e2a6c0e4840853b
-  cf_stacks:
-  - cflinuxfs2
-- name: go
   version: 1.7.1
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/go/go1.7.1.linux-amd64.tar.gz
-  md5: 5f8f9e4b0a5832f60b398d8d3d57f6d6
-  cf_stacks:
-  - cflinuxfs2
-- name: go
-  version: 1.7.3
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/go/go1.7.3.linux-amd64.tar.gz
-  md5: 3bf9e126791f1017b4ecf4a31fcab667
+  uri: https://s3.amazonaws.com/buildpacks-store/concourse-binaries/go/go1.7.1.linux-ppc64le.tar.gz
+  md5: fb4d4277e9d5817b017400bdfab4f35c
   cf_stacks:
   - cflinuxfs2
 - name: godep
   version: v74
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/godep/godep-v74-linux-x64.tgz
-  md5: 70220eee9f9e654e0b85887f696b6add
+  uri: https://s3.amazonaws.com/buildpacks-store/concourse-binaries/godep/godep-v74-linux-ppc64le.tgz
+  md5: ec23649df486cbcad1a897166cefeb8f
   cf_stacks:
   - cflinuxfs2
 - name: glide
   version: v0.12.3
-  uri: https://buildpacks.cloudfoundry.org/concourse-binaries/glide/glide-v0.12.3-linux-x64.tgz
-  md5: 9fa8027cc1a0188dcc767666b949cb6a
+  uri: https://s3.amazonaws.com/buildpacks-store/concourse-binaries/glide/glide-v0.12.3-linux-ppc64le.tgz
+  md5: 7f41632e0418f0e38c328fdc858595c8
   cf_stacks:
   - cflinuxfs2
 exclude_files:
