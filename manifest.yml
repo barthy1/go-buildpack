@@ -12,7 +12,7 @@ url_to_dependency_map:
   version: v0.12.3
 - match: godep
   name: godep
-  version: v79
+  version: v75
 dependency_deprecation_dates:
 - match: 1.6.\d+
   version_line: '1.6'
@@ -21,44 +21,44 @@ dependency_deprecation_dates:
 dependencies:
 - name: go
   version: 1.6.3
-  uri: https://buildpacks.cloudfoundry.org/dependencies/go/go1.6.3.linux-amd64-684cb84f.tar.gz
-  md5: 684cb84f270974a61cc3ecdf7fe9511b
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/go/go1.6.3.linux-ppc64le.tar.gz
+  md5: ef230567cfc23ac0338ec1c0bbba5b10
   cf_stacks:
   - cflinuxfs2
 - name: go
   version: 1.6.4
-  uri: https://buildpacks.cloudfoundry.org/dependencies/go/go1.6.4.linux-amd64-342b0164.tar.gz
-  md5: 342b016400511ec1f6d97f49e72d2386
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/go/go1.6.4.linux-ppc64le.tar.gz
+  md5: 28c3895a714f22ee61f90c4ff6e05f7b
   cf_stacks:
   - cflinuxfs2
 - name: go
   version: 1.7.5
-  uri: https://buildpacks.cloudfoundry.org/dependencies/go/go1.7.5.linux-amd64-c9de5bb9.tar.gz
-  md5: c9de5bb95790044de676301898e92a1b
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/go/go1.7.5.linux-ppc64le.tar.gz
+  md5: 3ce0a81073f1ea9b6c404e209ffa0334
   cf_stacks:
   - cflinuxfs2
 - name: go
   version: 1.7.4
-  uri: https://buildpacks.cloudfoundry.org/dependencies/go/go1.7.4.linux-amd64-bb76b26f.tar.gz
-  md5: bb76b26f8dc9886d42291eba95c84f10
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/go/go1.7.4.linux-ppc64le.tar.gz
+  md5: 1e3c4a6f4fabaabe4506c4621bc4a5cf
   cf_stacks:
   - cflinuxfs2
 - name: go
   version: 1.8.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/go/go1.8.linux-amd64-7eff0eab.tar.gz
-  md5: 7eff0eab89b4bbdc4edea6beb672ed66
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/go/go1.8.linux-ppc64le.tar.gz
+  md5: 0aa03dc0b48a7992ac7e686beec5a1ca
   cf_stacks:
   - cflinuxfs2
 - name: glide
   version: v0.12.3
-  uri: https://buildpacks.cloudfoundry.org/dependencies/glide/glide-v0.12.3-linux-x64-5b2e71ff.tgz
-  md5: 5b2e71ff152b5f00a0f944d57ff25ca3
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/glide/glide-v0.12.3-linux-ppc64le.tgz
+  md5: 25a286969c7a3df3210063b4cf9e9c78
   cf_stacks:
   - cflinuxfs2
 - name: godep
-  version: v79
-  uri: https://buildpacks.cloudfoundry.org/dependencies/godep/godep-v79-linux-x64-9e37ce0f.tgz
-  md5: 9e37ce0f6a258baf4848ded20ef49ba4
+  version: v75
+  uri: https://s3.amazonaws.com/dev-power-buildpacks/dependencies/godep/godep-v75-linux-ppc64le.tgz
+  md5: 6dca2b9947d511e705d630d76e357b73
   cf_stacks:
   - cflinuxfs2
 exclude_files:
